@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calcolatrice</title>
+  <style>
+    body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: Arial, sans-serif; }
+    .calculator { width: 200px; }
+    .schermo { width: 100%; height: 40px; text-align: right; padding: 10px; font-size: 1.5em; }
+    .buttons { display: grid; grid-template-columns: repeat(4, 1fr); gap: 5px; }
+    .button { padding: 15px; font-size: 1em; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+<div class="calculator">
+  <div class="schermo" id="schermo">0</div>
+  <div class="buttons">
+    <button class="button" id="cancella">C</button>
+    <button class="button" id="divisione">/</button>
+    <button class="button" id="moltiplicazione">*</button>
+    <button class="button" id="sottrazione">-</button>
+    <button class="button" id="sette">7</button>
+    <button class="button" id="otto">8</button>
+    <button class="button" id="nove">9</button>
+    <button class="button" id="somma">+</button>
+    <button class="button" id="quattro">4</button>
+    <button class="button" id="cinque">5</button>
+    <button class="button" id="sei">6</button>
+    <button class="button" id="uguale">=</button>
+    <button class="button" id="uno">1</button>
+    <button class="button" id="due">2</button>
+    <button class="button" id="tre">3</button>
+    <button class="button" id="zero">0</button>
+  </div>
+</div>
+
+<script src="boh.js"></script>
+</body>
+</html>
